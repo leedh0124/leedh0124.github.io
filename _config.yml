@@ -108,7 +108,7 @@ author:
   avatar           : "/assets/images/20121052_A6.jpg"
   bio              : "Deep RL Research at Strategic Aerospace Intiative (SAI)."
   location         : "Daejeon, KR"
-  email            : "leedh0124@kaist.ac.kr"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
