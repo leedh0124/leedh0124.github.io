@@ -11,7 +11,7 @@ header:
 excerpt: >
   Welcome to Dong Ho's academic website! 
 feature_row:
-  - image_path: /assets/images/DH-career.jpg
+  - image_path: /assets/images/DH-Career.jpg
     alt: "customizable"
     title: "Career"
     excerpt: "Dong Ho's research career."
@@ -25,7 +25,7 @@ feature_row:
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Click for more"
-  - image_path: /assets/images/DH-CV.JPG
+  - image_path: /assets/images/DH-CV.jpg
     alt: "100% free"
     title: "Curriculum Vitae"
     excerpt: "CV"
