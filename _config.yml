@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Dong Ho Lee"
   avatar           : "/assets/images/20121052_A6.jpg"
-  bio              : "Deep RL Research at Strategic Aerospace Intiative (SAI)."
+  bio              : "Deep RL Researcher at Strategic Aerospace Intiative (SAI)."
   location         : "Daejeon, KR"
   email            : 
   links:
