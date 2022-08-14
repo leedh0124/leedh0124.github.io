@@ -9,7 +9,7 @@ header:
   #   - label: "<i class='fas fa-download'></i> Install now"
   #     url: "/docs/quick-start-guide/"
 excerpt: >
-  Welcome to Dong Ho's website! 
+  Welcome to my website! 
 feature_row:
   - image_path: /assets/images/DH-Career.jpg
     alt: "customizable"
