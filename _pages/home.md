@@ -9,7 +9,7 @@ header:
   #   - label: "<i class='fas fa-download'></i> Install now"
   #     url: "/docs/quick-start-guide/"
 excerpt: >
-  Welcome to Dong Ho's academic website! 
+  Welcome to Dong Ho's academic website 11! 
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
