@@ -21,7 +21,7 @@ feature_row:
   - image_path: /assets/images/DH-Research.jpg
     alt: "fully responsive"
     title: "Research Interests"
-    excerpt: "Current reserach interests and past research projects."
+    excerpt: "Current research interests and past projects."
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Click for more"
