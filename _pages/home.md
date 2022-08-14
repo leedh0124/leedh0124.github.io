@@ -18,7 +18,7 @@ feature_row:
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Click for more"
-  - image_path: /assets/images/DH-Research.jpg
+  - image_path: /assets/images/DH-Researchdd.jpg
     alt: "fully responsive"
     title: "Research Interests"
     excerpt: "Current research interests and past projects."
