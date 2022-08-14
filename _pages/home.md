@@ -9,7 +9,7 @@ header:
   #   - label: "<i class='fas fa-download'></i> Install now"
   #     url: "/docs/quick-start-guide/"
 excerpt: >
-  Welcome to Dong Ho's academic website! A flexible two-column Jekyll theme. 
+  Welcome to Dong Ho's academic website! 
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
