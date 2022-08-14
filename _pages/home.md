@@ -9,29 +9,29 @@ header:
   #   - label: "<i class='fas fa-download'></i> Install now"
   #     url: "/docs/quick-start-guide/"
 excerpt: >
-  Welcome to Dong Ho's academic website 11! 
+  Welcome to Dong Ho's academic website! 
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
+  - image_path: /assets/images/DH-career.jpg
     alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+    title: "Career"
+    excerpt: "Dong Ho's research career."
     url: "/docs/configuration/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
+    btn_label: "Click for more"
+  - image_path: /assets/images/DH-Research.jpg
     alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    title: "Research Interests"
+    excerpt: "Current reserach interests and past research projects."
     url: "/docs/layouts/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
+    btn_label: "Click for more"
+  - image_path: /assets/images/DH-CV.JPG
     alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+    title: "Curriculum Vitae"
+    excerpt: "CV"
     url: "/docs/license/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Click for more"      
 ---
 
 {% include feature_row %}
