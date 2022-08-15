@@ -15,11 +15,11 @@ feature_row:
     alt: "customizable"
     title: "Career"
     excerpt: "Dong Ho's research career."
-    url: "/docs/configuration/"
+    url: "/career/"
     btn_class: "btn--primary"
     btn_label: "Click for more"
   - image_path: /assets/images/DH-Research.jpg
-    alt: "fully responsive"
+    alt: "/research/"
     title: "Research Interests"
     excerpt: "Current research interests and past projects."
     url: "/docs/layouts/"
@@ -29,7 +29,7 @@ feature_row:
     alt: "100% free"
     title: "Curriculum Vitae"
     excerpt: "CV"
-    url: "/docs/license/"
+    url: "/assets/files/DongHoLee_CV_vsF"
     btn_class: "btn--primary"
     btn_label: "Click for more"      
 ---
