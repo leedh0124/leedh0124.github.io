@@ -28,10 +28,10 @@ feature_row:
   - image_path: /assets/images/DH-CV.jpg
     alt: "100% free"
     title: "Curriculum Vitae"
-    excerpt: 
+    excerpt: "CV"
     url: "/assets/files/DongHoLee_CV_vsF.pdf"
     btn_class: "btn--primary"
-    btn_label: "Download CV"      
+    btn_label: "Download"      
 ---
 
 {% include feature_row %}
