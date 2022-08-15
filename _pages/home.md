@@ -11,21 +11,21 @@ header:
 excerpt: >
   Welcome to my website! 
 feature_row:
-  - image_path: /assets/images/DH-Career.png
+  - image_path: /assets/images/DH-Career.jpg
     alt: "customizable"
     title: "Career"
     excerpt: "Dong Ho's research career."
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Click for more"
-  - image_path: /assets/images/DH-Research.png
+  - image_path: /assets/images/DH-Research.jpg
     alt: "fully responsive"
     title: "Research Interests"
     excerpt: "Current research interests and past projects."
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Click for more"
-  - image_path: /assets/images/DH-CV.png
+  - image_path: /assets/images/DH-CV.jpg
     alt: "100% free"
     title: "Curriculum Vitae"
     excerpt: "CV"
