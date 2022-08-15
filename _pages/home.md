@@ -29,7 +29,7 @@ feature_row:
     alt: "100% free"
     title: "Curriculum Vitae"
     excerpt: "CV"
-    url: "/assets/files/DongHoLee_CV_vsF"
+    url: "/assets/files/DongHoLee_CV_vsF.pdf"
     btn_class: "btn--primary"
     btn_label: "Click for more"      
 ---
