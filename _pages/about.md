@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About"
+title: "About me"
 date: 2022-08-15T03:02:20+00:00
 
 ---

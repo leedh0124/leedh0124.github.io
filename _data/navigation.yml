@@ -3,10 +3,10 @@ main:
   - title: "About"
     url: /about/
   - title: "Careeer"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /career/
   - title: "Research"
-    url: /year-archive/
+    url: /research/
   - title: "Publication"
-    url: /collection-archive/
+    url: /publication/
   - title: "Sitemap"
     url: /sitemap/
