@@ -17,7 +17,7 @@ Deep RL Researcher, 2022 to present
 MS Student, 2020 to 2022 
 * Project (ongoing): _**Routing Problems Considering Value System for Exploration Missions**_ (NRF KR grant: 2020R1A2C1005037)
     * development of a data-efficient on-policy learning algorithm to train a Transformer-based policy network for solving routing problems via deep reinforcement learning
-* Project (ongoing): _**Data-driven Flow Modeling Research**_ (DAPA grant: UD200046CD)
+* Project (ongoing): _**Data-Driven Flow Modeling Research**_ (DAPA grant: UD200046CD)
     * development of a deep-learning model for efficient prediction of aerodynamic coefficients under extreme flow conditions
 
 ### Aerospace Technology Research Institute, ADD
