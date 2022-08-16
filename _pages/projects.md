@@ -8,13 +8,24 @@ date: 2022-08-15T03:02:20+00:00
 <br/>
 
 ## Routing Problems Considering Value System for Exploration Missions (2020-2023)
+This is an on-going three-year research project funded by NRF of Korea. Led by Professor Jaemyung Ahn, our team considers the value system inherent in exploration missions and finds an optimal set of routes to accomplish mission goals.Planetory exploration missions such as field geology tests and atmospheric observations for autonomous mobile robots naturally entail various intrinsic traits. Uncertainty is one major factor. As a result, it is often the case to update the current mission profile, a situation that calls for fast and efficient mission re-planning techniques. In this work, I worked on an online mission re-planning method for multiple robots using deep reinforcement learning. I designed a Transformer-style policy network and proposed a data-efficient training algorithm that speeds up per-epoch training time by over 30% when compared to the conventional method. [[Code]](https://github.com/leedh0124/Deep-Dynamic-Transformer-Model-for-Multi-Start-Team-Orienteering-Problem)   
+
+### Related Publications:
+- **Dong Ho Lee** and Jaemyung Ahn. (2022). Multi-Start Team Orienteering Problem for UAS Mission Re-Planning with Data-Efficient Deep Reinforcement Learning. _Journal of Intelligent & Robotic Systems_ (under review)
+- **Dong Ho Lee** and Jaemyung Ahn. A Deep Reinforcement Learning Approach to solve the Vehicle Routing Problem with Resource Constraints. In _AIAA Scitech Forum 2023_, Maryland, USA. (to appear)
+
+<figure class="third">
+    <img src="/assets/images/DH-Research2.jpg">
+    <img src="/assets/images/Fig.13.tif">
+    <img src="/assets/images/Fig.14.tif">
+    <figcaption></figcaption>
+</figure>
 
 ## Data-Driven Flow Modeling Research (2020-2023)
 An on-going three-year research project funded by ADD, jointly conducted with the Aerospace Propulsion Laboratory (APL) of Seoul National University (SNU). Under extreme flow conditions, say Mach number beyond 5.0, changes in aerodynamic design shape frequently occurs. As a result, we need a fast and accurate technique to predict the changes in aerodynamic coefficients in accordance with the shape changes. Along with the team led by Professor Jaemyung Ahn and Professor Bok Jik Lee, I worked on adaptive aerodynamics prediction upon changes of the shape using deep learning. Specifically, I designed a deep learning pipeline for preprocessing raw data and training a residual deep neural net to fine tune its inference performance. 
 
 ### Related Publications:
 - **Dong Ho Lee**, DongUk Lee, Seoum Han, Lee, Bok Jik Lee and Jaemyung Ahn. (2022). A Residual Deep Neural Network for Prediction of Aerodyanmic Coefficients of Ablated Cone Shape under Extreme Flow Conditions. (preparation)
-
 - **Dong Ho Lee**, DongUk Lee, Jeongyong Lee, Bok Jik Lee and Jaemyung Ahn. Prediction of Multiple Aerodynamic Coefficients of Missiles using CNN. In _AIAA Scitech Forum 2022_, San Diego, USA. 
 
 <figure class="half">
@@ -37,9 +48,7 @@ A three-year research project carried out during my service at the Aerospace Tec
 
 ### Related Publications:
 - **Dong Ho Lee**, Hwanchol Jang, Sang-Hwan Kim and Woohyuk Chang. (2020). Multi-UAV Mission Allocation and Optimization Technique Based on Discrete-Event Modeling and Simulation. _Journal of the Korean Society for Aeronautical& Space Systems_, 48(2), 159-166
-
 -  **Dong Ho Lee**, Woohyuk Chang and Jinku Buyn. An Optimization Technique for Discrete Event Model-based UAV Real-Time Heterogeneous Mission Allocation. In 2018 _Proceedings of the Korean Society for Aeronautical and Space Sciences, Fall Conference_, Jeju, Korea.
-
 -  **Dong Ho Lee**, Woohyuk Chang and Jinku Buyn. Discrete-event Modeling and Simulation of Autonomous Multi-UAV Mission Management. In 2018 _Avionics Systems Symposium Korea (ASSK)_, Yeosu, Korea.
 
 ## Modular Drone with Self-Configuration Capability (2016)
