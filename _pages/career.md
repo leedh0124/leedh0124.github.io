@@ -1,15 +1,46 @@
 ---
 permalink: /career/
 title: "Career"
-date: 2022-08-15T03:02:20+00:00
-
+date: 2022-08-16T03:02:20+00:00
 ---
-This is an example CAREER page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+<br/> 
 
-> Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi'a coladas. (And gettin' caught in the rain.)
+# Research Experience
 
-...or something like this:
+## Strategic Aerospace Initiative (SAI)
+### Korea Advanced Institute of Science and Technology (KAIST)
+#### Deep RL Researcher
+##### 2022 to present 
 
-> The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.
+* Project (ongoing): _**Routing problems considering value system for exploration missions**_ (NRF KR grant: 2020R1A2C1005037)
+* Project (ongoing): _**Data-driven flow modeling research**_ (DAPA grant: UD200046CD)
 
-You should probably delete this page and create new pages for your content. Have fun!
+## Strategic Aerospace Initiative (SAI)
+### Korea Advanced Institute of Science and Technology (KAIST)
+#### MS student
+##### 2020 to 2022 
+
+* Project (ongoing): _**Routing problems considering value system for exploration missions**_ (NRF KR grant: 2020R1A2C1005037)
+    * development of a data-efficient on-policy learning algorithm to train a Transformer-based policy network for solving routing problems via deep reinforcement learning
+* Project (ongoing): _**Data-driven flow modeling research**_ (DAPA grant: UD200046CD)
+    * development of a deep-learning model for efficient prediction of aerodynamic coefficients under extreme flow conditions
+
+## Aerospace Technology Research Institute
+### Agency for Defense Development (ADD)
+#### Research Officer, First Lieutenant 
+##### 2017 to 2020
+
+* Project: _**Autonomous Navigation and Mission Management Technology**_
+    * development of mission planning algorithm for UAV operation in dynamic environment 
+    * formulation of UAV planning problem as MILP for Gurobi solver
+    * design of a fast online planning using genetic algorithm 
+
+## Unmanned Systems Research Group (USRG)
+### Korea Advanced Institute of Science and Technology (KAIST)
+#### Undergraduate Research Intern
+##### 2015 to 2016
+
+* Project: _**Development of Modular Drone with Self-Configuration**_
+    * design of a 3D-printable modular drone that can configure itself before coordinated flight
+
+<br/>
