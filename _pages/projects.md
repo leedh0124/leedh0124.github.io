@@ -12,9 +12,14 @@ date: 2022-08-15T03:02:20+00:00
 ## Data-Driven Flow Modeling and Analysis (2020-2023)
 
 ## Waypoint-Constrained Optimal Control Problem via Interior-point Barrier Method (2021)
-A course project for AE551: Introduction to Optimal Control, where I solved an trajectory optimization problem with waypoint constraints using the barrier (interior-point) method. This work was divided into two parts. In part 1, the trajectory optimization problem was formulated into a constrained parameter optimization via Hermite-Simpson direct collocation. In part 2, the parameter optimization problem was solved in two ways - MATLAB's _fmincon_ function and a barrier method coded by myself. The results for both methods were compared at the end. During the development, I tested my code on various benchmark (constrained & unconstrained) problems using the [Himmelblau](https://en.wikipedia.org/wiki/Himmelblau%27s_function) function. [[code]](https://github.com/leedh0124/AE551_Optimal_Control_Trajectory_Optimization_Direct_Methods)
+A course project for AE551: Introduction to Optimal Control, where I solved an trajectory optimization problem with waypoint constraints using the barrier (interior-point) method. This work was divided into two parts. In part 1, the trajectory optimization problem was formulated into a constrained parameter optimization via Hermite-Simpson direct collocation. In part 2, the parameter optimization problem was solved in two ways - MATLAB's _fmincon_ function and a barrier method coded by myself. The results for both methods were compared at the end. During the development, I tested my code on various benchmark (constrained & unconstrained) problems using the [Himmelblau](https://en.wikipedia.org/wiki/Himmelblau%27s_function) function.  [[Final PPT]](/assets/files/AE551_Final_Presentation_DongHoLee_20204453_vF.pdf) [[code]](https://github.com/leedh0124/AE551_Optimal_Control_Trajectory_Optimization_Direct_Methods)
 
-![Problem Image]({{ "/assets/images/AE551_Final_B.jpg" | relative_url }}){: .full}
+
+<figure class="half">
+    <img src="/assets/images/AE551_Final_A.jpg">
+    <img src="/assets/images/AE551_Final_B.jpg">
+    <figcaption></figcaption>
+</figure>
 
 ## Autonomous Navigation and Mission Management Technology (2017-2020)
 A three-year research project carried out during my service at the Aerospace Technology Research Institute (ADD) as a research officer. My team and I worked on various mission planning algorithms for safe operation of UAV under dynamic environments, which can be used for unmanned air transportation and urban air mobility (UAM) services. We considered a number of mission profiles considering relative importance, sequence of visitation, and re-planning scenarios. I wrote a C++ code to solve the MILP formulation of planning problem via the [Gurobi](https://www.gurobi.com/) solver. For re-planning, I wrote a fast and efficient code to run on-board the UAV flight computer. The re-planning code is based on the genetic algorithm. You can read a Korean news coverage of this work [here](https://www.yna.co.kr/view/AKR20210511043600504).
