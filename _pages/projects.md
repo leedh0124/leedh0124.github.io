@@ -16,8 +16,8 @@ This is an on-going three-year research project funded by National Research Foun
 - **Dong Ho Lee** and Jaemyung Ahn. A Deep Reinforcement Learning Approach to solve the Vehicle Routing Problem with Resource Constraints. In _AIAA Scitech Forum 2023_, Maryland, USA. (to appear)
 
 <figure class="half">
-    <img src="/assets/images/DH-Research2.jpg">
-    <img src="/assets/images/DDTM_Training_cropped.jpg">
+    <img src="/assets/images/DH-Research3.jpg">
+    <img src="/assets/images/DDTM_Training_cropped2.jpg">
     <figcaption></figcaption>
 </figure>
 
