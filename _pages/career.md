@@ -14,7 +14,7 @@ Deep RL Researcher, 2022 to present
 * Project (ongoing): _**Data-driven Flow Modeling Research**_ (DAPA grant: UD200046CD)
 
 ### Strategic Aerospace Initiative (SAI), KAIST
-MS student, 2020 to 2022 
+MS Student, 2020 to 2022 
 * Project (ongoing): _**Routing Problems Considering Value System for Exploration Missions**_ (NRF KR grant: 2020R1A2C1005037)
     * development of a data-efficient on-policy learning algorithm to train a Transformer-based policy network for solving routing problems via deep reinforcement learning
 * Project (ongoing): _**Data-driven Flow Modeling Research**_ (DAPA grant: UD200046CD)
@@ -36,7 +36,7 @@ Undergraduate Research Intern, 2015 to 2016
 ## Teaching Experience
 
 * AE201 Introductory Flight Project (Spring 2021)
-* HSS024 Advanced English Writing (2015 - 2016)
-* HSS025 Advanced English Reading (2015 - 2016)
+* HSS024 Advanced English Writing (2015-2016)
+* HSS025 Advanced English Reading (2015-2016)
 * LG-KAIST Science Camp (Summer 2015)
-* Academic English Camp (2014 - 2015)
+* Academic English Camp (2014-2015)
