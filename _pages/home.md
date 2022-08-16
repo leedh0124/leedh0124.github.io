@@ -19,10 +19,10 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Click for more"
   - image_path: /assets/images/DH-Research.jpg
-    alt: "/research/"
-    title: "Research Interests"
+    alt: "/projects/"
+    title: "Research"
     excerpt: "Current research interests and past projects."
-    url: "/research/"
+    url: "/projects/"
     btn_class: "btn--primary"
     btn_label: "Click for more"
   - image_path: /assets/images/DH-CV.jpg

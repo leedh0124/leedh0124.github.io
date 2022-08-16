@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About me"
+classes: wide
 date: 2022-08-15T03:02:20+00:00
 
 ---

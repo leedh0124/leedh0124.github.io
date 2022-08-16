@@ -1,6 +1,7 @@
 ---
-permalink: /research/
-title: "Research"
+permalink: /projects/
+title: "Projects"
+classes: wide
 date: 2022-08-15T03:02:20+00:00
 
 ---
