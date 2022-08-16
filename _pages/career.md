@@ -9,7 +9,7 @@ date: 2022-08-16T03:02:20+00:00
 ## Work Experience
 
 ### Strategic Aerospace Initiative (SAI), KAIST
-Deep RL Researcher, 2022 to present 
+![SAI-image](/assets/images/sai-logo.jpg){: .align-left} Deep RL Researcher, 2022 to present 
 * Project (ongoing): _**Routing Problems Considering Value System for Exploration Missions**_ (NRF KR grant: 2020R1A2C1005037)
 * Project (ongoing): _**Data-driven Flow Modeling Research**_ (DAPA grant: UD200046CD)
 
