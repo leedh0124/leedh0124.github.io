@@ -19,6 +19,8 @@ date: 2022-08-16T03:02:20+00:00
 
 - **Dong Ho Lee**, Hwanchol Jang, Sang-Hwan Kim and Woohyuk Chang. (2020). Multi-UAV Mission Allocation and Optimization Technique Based on Discrete-Event Modeling and Simulation. _Journal of the Korean Society for Aeronautical& Space Systems_, 48(2), 159-166
 
+<br/>
+
 # Conference Proceedings
 
 ## International
