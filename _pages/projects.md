@@ -38,7 +38,8 @@ An on-going three-year research project funded by ADD, jointly conducted with th
 
 ## Waypoint-Constrained Optimal Control Problem via Interior-point Barrier Method (2021)
 A course project for AE551: Introduction to Optimal Control at KAIST, where I solved an trajectory optimization problem with waypoint constraints using the barrier (interior-point) method. This work was divided into two parts. In part 1, the trajectory optimization problem was formulated into a constrained parameter optimization via Hermite-Simpson direct collocation. In part 2, the parameter optimization problem was solved in two ways - MATLAB's _fmincon_ function and a barrier method coded by myself. The results for both methods were compared at the end. During the development, I tested my code on various benchmark (constrained & unconstrained) problems using the [Himmelblau](https://en.wikipedia.org/wiki/Himmelblau%27s_function) function.  
-[[Final PPT]](/assets/files/AE551_Final_Presentation_DongHoLee_20204453_vF.pdf) [[Code]](https://github.com/leedh0124/AE551_Optimal_Control_Trajectory_Optimization_Direct_Methods)
+[[Code]](https://github.com/leedh0124/AE551_Optimal_Control_Trajectory_Optimization_Direct_Methods)
+[[Final PPT]](/assets/files/AE551_Final_Presentation_DongHoLee_20204453_vF.pdf) 
 
 <figure class="half">
     <img src="/assets/images/AE551_Test_Benchmark_B.jpg">
@@ -56,6 +57,7 @@ A three-year research project carried out during my service at the Aerospace Tec
 
 ## Modular Drone with Self-Configuration Capability (2016)
 Modular drone was the first technical project I worked on. This project was carried out as the Undergraduate Research Participation (URP) program in KAIST. In this work, I developed a modular drone which was composed of smaller, individual modules, which when assembled together, can achieve a coordinated flight. These individual modules are capable of self-configuration that enables user to assemble them in any fashion. Once power is on, these modules communicate with each other, determine their module IDs based on their location, and perform coordinated flight. Hardware of individual module and bridge which connects each modules are constructed out of a 3D printer. 
-[[URP Poster]](/assets/files/URP_POSTER_MODULAR_DRONE2016.pdf) [[GIF]](/assets/images/URP_Modular_Drone_Flight_Test_AdobeExpress.gif)
+[[GIF]](/assets/images/URP_Modular_Drone_Flight_Test_AdobeExpress.gif)
+[[URP Poster]](/assets/files/URP_POSTER_MODULAR_DRONE2016.pdf) 
 
 ![Module Image]({{ "/assets/images/URP_Single_Module.jpg" | relative_url }}){: .align-center}
