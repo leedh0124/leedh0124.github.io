@@ -9,3 +9,4 @@ Hi! Welcome to my website. I am a researcher at the Strategic Aerospace Initiati
 
 My current research interests lie in the intersection between **optimization**, **deep reinforcement learning**, and **optimal control theory**. In particular, I have focused on solving various vehicle routing problems using deep reinforcement learning and its application in UAV autonomy, intelligent decision-making and smart transportation systems. 
 
+Feel free to reach me at leedh0124 (at) kaist.ac.kr.
