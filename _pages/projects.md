@@ -14,12 +14,13 @@ This is an on-going three-year research project funded by NRF of Korea. Led by P
 - **Dong Ho Lee** and Jaemyung Ahn. (2022). Multi-Start Team Orienteering Problem for UAS Mission Re-Planning with Data-Efficient Deep Reinforcement Learning. _Journal of Intelligent & Robotic Systems_ (under review)
 - **Dong Ho Lee** and Jaemyung Ahn. A Deep Reinforcement Learning Approach to solve the Vehicle Routing Problem with Resource Constraints. In _AIAA Scitech Forum 2023_, Maryland, USA. (to appear)
 
-<figure class="third">
+<figure class="half">
     <img src="/assets/images/DH-Research2.jpg">
-    <img src="/assets/images/DDTM_Result_A.jpg">
-    <img src="/assets/images/DDTM_Training.jpg">
+    <img src="/assets/images/DDTM_Training_cropped.jpg">
     <figcaption></figcaption>
 </figure>
+
+![DDTM Training Image]({{ "/assets/images/DDTM_Result_A_cropped.jpg" | relative_url }}){: .align-center}
 
 ## Data-Driven Flow Modeling Research (2020-2023)
 An on-going three-year research project funded by ADD, jointly conducted with the Aerospace Propulsion Laboratory (APL) of Seoul National University (SNU). Under extreme flow conditions, say Mach number beyond 5.0, changes in aerodynamic design shape frequently occurs. As a result, we need a fast and accurate technique to predict the changes in aerodynamic coefficients in accordance with the shape changes. Along with the team led by Professor Jaemyung Ahn and Professor Bok Jik Lee, I worked on adaptive aerodynamics prediction upon changes of the shape using deep learning. Specifically, I designed a deep learning pipeline for preprocessing raw data and training a residual deep neural net to fine tune its inference performance. 
