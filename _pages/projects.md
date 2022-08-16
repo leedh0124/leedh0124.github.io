@@ -31,7 +31,7 @@ An on-going three-year research project funded by ADD, jointly conducted with th
 - **Dong Ho Lee**, DongUk Lee, Jeongyong Lee, Bok Jik Lee and Jaemyung Ahn. Prediction of Multiple Aerodynamic Coefficients of Missiles using CNN. In _AIAA Scitech Forum 2022_, San Diego, USA. 
 
 <figure class="half">
-    <img src="/assets/images/AIAA_DongHo_Presentation.jpg">
+    <img src="/assets/images/AIAA_DongHo_Presentation2.jpg">
     <img src="/assets/images/Test Set Plot for Ca.gif">
     <figcaption></figcaption>
 </figure>
