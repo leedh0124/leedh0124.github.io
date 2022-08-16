@@ -5,12 +5,6 @@ classes: wide
 date: 2022-08-15T03:02:20+00:00
 
 ---
-This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:
+Hi! Welcome to my website. I am a researcher at the Strategic Aerospace Initiative (SAI) at Korea Advanced Institute of Science and Technology (KAIST) led by Professor [Jaemyung Ahn](http://sai.kaist.ac.kr/professor/). I obtained a master's degree in Aerospace Engineering under the supervision of Professor Ahn who had been a thoughtful advisor during my studies. Prior to this, I completed my mandatory service as a research officer at the Aerospace Technology Research Institute under the Agency for Defense Development (ADD) from 2017 to 2020. During my service, I worked on autonomous mission planning algorithms for UAV operation in dynamic environments. I received my undergraduate degree in Aerospace Engineering at [KAIST](https://ae.kaist.ac.kr/pages/sub/sub01_01) in 2017. 
 
-> Hi there! I'm a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi'a coladas. (And gettin' caught in the rain.)
-
-...or something like this:
-
-> The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.
-
-You should probably delete this page and create new pages for your content. Have fun!
+My current research interests lie in the intersection between optimization, deep reinforcement learning, and control theory. In particular, I have focused on solving various vehicle routing problems using deep reinforcement learning and its application in UAV autonomy, intelligent decision-making and smart transportation systems. 
