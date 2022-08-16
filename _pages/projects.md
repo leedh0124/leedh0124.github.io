@@ -16,8 +16,8 @@ This is an on-going three-year research project funded by NRF of Korea. Led by P
 
 <figure class="third">
     <img src="/assets/images/DH-Research2.jpg">
-    <img src="/assets/images/Fig.13.tif">
-    <img src="/assets/images/Fig.14.tif">
+    <img src="/assets/images/DDTM_Training.jpg">
+    <img src="/assets/images/DDTM_Result_A.jpg">
     <figcaption></figcaption>
 </figure>
 
