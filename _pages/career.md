@@ -1,10 +1,9 @@
 ---
 permalink: /career/
 title: "Career"
+classes: wide
 date: 2022-08-16T03:02:20+00:00
 ---
-<br/> 
-
 # Research Experience
 
 ## Strategic Aerospace Initiative (SAI)
@@ -43,4 +42,3 @@ date: 2022-08-16T03:02:20+00:00
 * Project: _**Development of Modular Drone with Self-Configuration**_
     * design of a 3D-printable modular drone that can configure itself before coordinated flight
 
-<br/>
