@@ -14,14 +14,14 @@ feature_row:
   - image_path: /assets/images/DH-Career.jpg
     alt: "customizable"
     title: "Career"
-    excerpt: "Dong Ho's research career."
+    excerpt: "Research career and related experiences."
     url: "/career/"
     btn_class: "btn--primary"
     btn_label: "Click for more"
   - image_path: /assets/images/DH-Research.jpg
     alt: "/projects/"
     title: "Research"
-    excerpt: "Current research interests and past projects."
+    excerpt: "Current and past projects."
     url: "/projects/"
     btn_class: "btn--primary"
     btn_label: "Click for more"
