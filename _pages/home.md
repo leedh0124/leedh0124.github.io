@@ -18,7 +18,7 @@ feature_row:
     url: "/career/"
     btn_class: "btn--primary"
     btn_label: "Click for more"
-  - image_path: /assets/images/DH-Research.jpg
+  - image_path: /assets/images/DH-Research3.jpg
     alt: "/projects/"
     title: "Research"
     excerpt: "Current and past projects."
