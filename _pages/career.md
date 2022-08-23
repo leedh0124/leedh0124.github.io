@@ -40,3 +40,15 @@ Undergraduate Research Intern, 2015 to 2016
 * HSS025 Advanced English Reading (2015-2016)
 * LG-KAIST Science Camp (Summer 2015)
 * Academic English Camp (2014-2015)
+
+<br/>
+## Related Coursework
+
+* ME460 Automatic Control
+* AE450 Flight Dynamics and Control
+* CC511 Probability and Statistics 
+* IE539 Convex Optimization
+* AE552 Advanced Linear Stability and Control
+* IE540 Dynamic Programming and Reinforcement Learning
+* AE551 Introduction to Optimal Control
+* AE501 Multidisciplinary Design Optimization for Aerospace Systems
