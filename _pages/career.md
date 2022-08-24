@@ -52,3 +52,4 @@ Undergraduate Research Intern, 2015 to 2016
 * IE540 Dynamic Programming and Reinforcement Learning
 * AE551 Introduction to Optimal Control
 * AE501 Multidisciplinary Design Optimization for Aerospace Systems
+* AI504 Programming for AI
