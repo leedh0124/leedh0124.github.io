@@ -46,6 +46,7 @@ Undergraduate Research Intern, 2015 to 2016
 
 * ME460 Automatic Control
 * AE450 Flight Dynamics and Control
+* ME500 Mathematical Methods in Mechanical Engineering
 * CC511 Probability and Statistics 
 * IE539 Convex Optimization
 * AE552 Advanced Linear Stability and Control
