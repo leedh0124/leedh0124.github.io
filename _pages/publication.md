@@ -13,7 +13,7 @@ date: 2022-08-16T03:02:20+00:00
 
 - **Dong Ho Lee** and Jaemyung Ahn. (2022). Multi-Start Team Orienteering Problem for UAS Mission Re-Planning with Data-Efficient Deep Reinforcement Learning. _Journal of Intelligent & Robotic Systems_ (under review)
 
-- **Dong Ho Lee**, DongUk Lee, Seoum Han, Lee, Bok Jik Lee and Jaemyung Ahn. (2022). A Residual Deep Neural Network for Prediction of Aerodyanmic Coefficients of Ablated Cone Shape under Extreme Flow Conditions. (preparation)
+- **Dong Ho Lee**, DongUk Lee, Seoum Han, Lee, Bok Jik Lee and Jaemyung Ahn. (2022). A Residual Deep Neural Network for Prediction of Aerodynamic Coefficients of Ablated Cone Shape under Extreme Flow Conditions. (in preparation)
 
 ## Korean
 
