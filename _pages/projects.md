@@ -9,7 +9,8 @@ date: 2022-08-15T03:02:20+00:00
 
 ## Routing Problems Considering Value System for Exploration Missions (2020-2023)
 This is an on-going three-year research project funded by National Research Foundation (NRF) of Korea. Led by Professor Jaemyung Ahn, our team considers the value system inherent in exploration missions and finds an optimal set of routes to accomplish mission goals. Planetory exploration missions such as field geology tests and atmospheric observations for autonomous mobile robots naturally entail various intrinsic traits. Uncertainty is one major factor. As a result, it is often the case to update the current mission profile, a situation that calls for fast and efficient mission re-planning techniques. In this work, I worked on a mission re-planning method for multiple robots using deep reinforcement learning. I designed a Transformer-style policy network and proposed a data-efficient training algorithm using instance-augmentation baseline that speeds up per-epoch training time by over 30% when compared to the conventional method. 
-[[Code]](https://github.com/leedh0124/Deep-Dynamic-Transformer-Model-for-Multi-Start-Team-Orienteering-Problem)   
+[[Code]](https://github.com/leedh0124/Deep-Dynamic-Transformer-Model-for-Multi-Start-Team-Orienteering-Problem)
+[[Manuscript]](/assets/files/J_Intell_Robot_Syst_DDTM_MSTOP_Manuscript-vF.pdf) 
 
 ### Related Publications:
 - **Dong Ho Lee** and Jaemyung Ahn. (2022). Multi-Start Team Orienteering Problem for UAS Mission Re-Planning with Data-Efficient Deep Reinforcement Learning. _Journal of Intelligent & Robotic Systems_ (under review)
