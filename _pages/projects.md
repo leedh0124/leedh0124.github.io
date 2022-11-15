@@ -27,7 +27,7 @@ This is an on-going three-year research project funded by National Research Foun
 An on-going three-year research project funded by ADD, jointly conducted with the Aerospace Propulsion Laboratory (APL) of Seoul National University (SNU). Under extreme flow conditions, say Mach number beyond 5.0, changes in aerodynamic design shape frequently occurs. As a result, we need a fast and accurate technique to predict the changes in aerodynamic coefficients in accordance with the shape changes. Along with the team led by Professor Jaemyung Ahn and Professor Bok Jik Lee, I worked on adaptive aerodynamics prediction upon changes of the shape using deep learning. Specifically, I designed a deep learning pipeline for preprocessing raw data and training a residual deep neural net to fine tune its inference performance. 
 
 ### Related Publications:
-- **Dong Ho Lee**, DongUk Lee, Seoum Han, Lee, Bok Jik Lee and Jaemyung Ahn. (2022). Deep Residual Neural Network
+- **Dong Ho Lee**, DongUk Lee, Seoum Han, Seongil Seo, Bok Jik Lee and Jaemyung Ahn. (2022). Deep Residual Neural Network
 for Predicting Aerodynamic Coefficient Changes with Ablation. _Aerospace Science and Technology_ (under review)
 - **Dong Ho Lee**, DongUk Lee, Jeongyong Lee, Bok Jik Lee and Jaemyung Ahn. Prediction of Multiple Aerodynamic Coefficients of Missiles using CNN. In _AIAA Scitech Forum 2022_, San Diego, USA. 
 
