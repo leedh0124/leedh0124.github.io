@@ -12,7 +12,7 @@ This is an on-going three-year research project funded by National Research Foun
 [[Code]](https://github.com/leedh0124/Deep-Dynamic-Transformer-Model-for-Multi-Start-Team-Orienteering-Problem)
 
 ### Related Publications:
-- **Dong Ho Lee** and Jaemyung Ahn. (2022). Multi-Start Team Orienteering Problem for UAS Mission Re-Planning with Data-Efficient Deep Reinforcement Learning. _Journal of Intelligent & Robotic Systems_ (under review)[[Manuscript]](/assets/files/J_Intell_Robot_Syst_DDTM_MSTOP_Manuscript-vF.pdf) 
+- **Dong Ho Lee** and Jaemyung Ahn. (2022). Multi-Start Team Orienteering Problem for UAS Mission Re-Planning with Data-Efficient Deep Reinforcement Learning. _Journal of Intelligent & Robotic Systems_ (under review) [[Manuscript]](/assets/files/J_Intell_Robot_Syst_DDTM_MSTOP_Manuscript-vF.pdf) 
 - **Dong Ho Lee** and Jaemyung Ahn. A Deep Reinforcement Learning Approach to solve the Vehicle Routing Problem with Resource Constraints. In _AIAA Scitech Forum 2023_, Maryland, USA. (to appear)
 
 <figure class="half">
