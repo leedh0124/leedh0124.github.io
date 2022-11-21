@@ -29,7 +29,7 @@ An on-going three-year research project funded by ADD, jointly conducted with th
 ### Related Publications:
 - **Dong Ho Lee**, DongUk Lee, Seoum Han, Seongil Seo, Bok Jik Lee and Jaemyung Ahn. (2022). Deep Residual Neural Network
 for Predicting Aerodynamic Coefficient Changes with Ablation. _Aerospace Science and Technology_ (under review) [[Manuscript]](/assets/files/AST_DFM05-vF.pdf) 
-- **Dong Ho Lee**, DongUk Lee, Jeongyong Lee, Bok Jik Lee and Jaemyung Ahn. Prediction of Multiple Aerodynamic Coefficients of Missiles using CNN. In _AIAA Scitech Forum 2022_, San Diego, USA. 
+- **Dong Ho Lee**, DongUk Lee, Jeongyong Lee, Bok Jik Lee and Jaemyung Ahn. Prediction of Multiple Aerodynamic Coefficients of Missiles using CNN. In _AIAA Scitech Forum 2022_, San Diego, USA. [[Link]](https://arc.aiaa.org/doi/10.2514/6.2022-2439)
 
 <figure class="half">
     <img src="/assets/images/AIAA_DongHo_Presentation2.jpg">
