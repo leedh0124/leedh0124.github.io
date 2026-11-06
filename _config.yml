@@ -18,15 +18,15 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "Dong Ho Lee"
 title_separator          : "|"
-subtitle                 : "Per aspera ad astra"
-name                     : "Dong Ho"
-description              : "An academic website."
+subtitle                 :
+name                     : "Dong Ho Lee"
+description              : "Dong Ho Lee — Ph.D. student at UT Austin working on multi-agent systems, optimization, game theory, and learning for robotics and autonomy."
 url                      : "https://leedh0124.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "leedh0124/leedh0124.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Dong Ho Lee's website"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
@@ -86,7 +86,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/DongHo-profile.jpg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -106,44 +106,46 @@ analytics:
 author:
   name             : "Dong Ho Lee"
   avatar           : "/assets/images/DongHo-profile.jpg"
-  bio              : "Deep RL Researcher at Strategic Aerospace Intiative (SAI)."
-  location         : "Daejeon, KR"
+  bio              : "Multi-agent systems, optimization, games, and learning."
+  location         : "Austin, TX"
   email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:leedh0124@kaist.ac.kr"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://leedh0124.github.io"
+      url: "mailto:leedh0124@utexas.edu"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=8w4oBHAAAAAJ&hl=en"
+    - label: "CLeAR Lab"
+      icon: "fas fa-fw fa-university"
+      url: "https://clearoboticslab.github.io/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/dong-ho-lee-708551147/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/leedh0124"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+
 
 # Site Footer
 footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:leedh0124@kaist.ac.kr"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://leedh0124.github.io"
+      url: "mailto:leedh0124@utexas.edu"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=8w4oBHAAAAAJ&hl=en"
+    - label: "CLeAR Lab"
+      icon: "fas fa-fw fa-university"
+      url: "https://clearoboticslab.github.io/"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/dong-ho-lee-708551147/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/leedh0124"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+
 
 
 # Reading Files
@@ -175,6 +177,10 @@ exclude:
   - Rakefile
   - README
   - tmp
+  - MAINTENANCE.md
+  - CONTENT_REVIEW.md
+  - "**/*.pptx"
+  - "**/~$*"
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
@@ -212,9 +218,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago
 
 
 # Plugins (previously gems:)

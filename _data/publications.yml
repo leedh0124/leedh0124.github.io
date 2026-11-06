@@ -1,0 +1,89 @@
+# Newest first within each category. Update status only with confirmed evidence.
+- id: reduced-goop
+  kind: preprint
+  year: 2026
+  title: "Breaking Exponential Complexity in Games of Ordered Preference: A Tractable Reformulation"
+  authors: "Dong Ho Lee, Jingqi Li, Lasse Peters, Georgios Bakirtzis, and David Fridovich-Keil"
+  venue: "arXiv preprint"
+  status: "Under review"
+  details: "Under review at SIAM Journal on Optimization"
+  url: https://arxiv.org/abs/2603.26950
+  code: https://github.com/CLeARoboticsLab/Reduced-GOOP
+  featured: true
+- id: mixed-hierarchy-games
+  kind: conference
+  year: 2026
+  title: "Efficiently Solving Mixed-Hierarchy Games with Quasi-Policy Approximations"
+  authors: "Hamzah Khan, Dong Ho Lee, Jingqi Li, Tianyu Qiu, Christian Ellis, Jesse Milzman, Wesley Suttle, and David Fridovich-Keil"
+  venue: "Workshop on the Algorithmic Foundations of Robotics (WAFR)"
+  url: https://arxiv.org/abs/2602.01568
+  code: https://github.com/CLeARoboticsLab/MixedHierarchyGames.jl
+  featured: true
+- id: games-of-ordered-preference
+  kind: journal
+  year: 2025
+  title: "You Can't Always Get What You Want: Games of Ordered Preference"
+  authors: "Dong Ho Lee, Lasse Peters, and David Fridovich-Keil"
+  venue: "IEEE Robotics and Automation Letters"
+  details: "Volume 10, issue 7, pages 7182–7189."
+  url: https://doi.org/10.1109/LRA.2025.3575324
+  preprint: https://arxiv.org/abs/2410.21447
+  code: https://github.com/CLeARoboticsLab/ordered-preferences
+  featured: true
+- id: hierarchical-routing
+  kind: journal
+  year: 2025
+  title: "A Convex Formulation of Game-Theoretic Hierarchical Routing"
+  authors: "Dong Ho Lee, Kaitlyn Donnel, Max Z. Li, and David Fridovich-Keil"
+  venue: "IEEE Control Systems Letters"
+  details: "Volume 9, pages 318–323."
+  url: https://doi.org/10.1109/LCSYS.2025.3571655
+  preprint: https://arxiv.org/abs/2503.13790
+- id: approximate-goop
+  kind: conference
+  year: 2025
+  title: "Approximate Solutions to Games of Ordered Preference"
+  authors: "Pau de las Heras Molins, Eric Roy-Almonacid, Dong Ho Lee, Lasse Peters, David Fridovich-Keil, and Georgios Bakirtzis"
+  venue: "IEEE International Conference on Intelligent Transportation Systems (ITSC)"
+  url: https://ieeexplore.ieee.org/abstract/document/11423775
+  preprint: https://arxiv.org/abs/2507.11021
+- id: information-gathering
+  kind: conference
+  year: 2025
+  title: "Smooth Information Gathering in Two-Player Noncooperative Games"
+  authors: "Fernando Palafox, Jesse Milzman, Dong Ho Lee, Ryan Park, and David Fridovich-Keil"
+  venue: "International Conference on Autonomous Agents and Multiagent Systems (AAMAS)"
+  details: "Pages 1595–1603."
+  url: https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p1595.pdf
+  preprint: https://arxiv.org/abs/2404.00733
+- id: learning-routing
+  kind: journal
+  year: 2024
+  title: "Multi-Start Team Orienteering Problem for UAS Mission Re-Planning with Data-Efficient Deep Reinforcement Learning"
+  authors: "Dong Ho Lee and Jaemyung Ahn"
+  venue: "Applied Intelligence"
+  details: "Volume 54, issue 6, pages 4467–4489."
+  url: https://doi.org/10.1007/s10489-024-05367-4
+  code: https://github.com/leedh0124/Deep-Dynamic-Transformer-Model-for-Multi-Start-Team-Orienteering-Problem
+- id: aerodynamic-prediction
+  kind: journal
+  year: 2023
+  title: "Deep Residual Neural Network for Predicting Aerodynamic Coefficient Changes with Ablation"
+  authors: "Dong Ho Lee, DongUk Lee, Seoum Han, Seongil Seo, Bok Jik Lee, and Jaemyung Ahn"
+  venue: "Aerospace Science and Technology"
+  details: "Volume 136, article 108207."
+  url: https://doi.org/10.1016/j.ast.2023.108207
+- id: resource-constrained-routing
+  kind: conference
+  year: 2023
+  title: "A Deep Reinforcement Learning Approach to Solve the Vehicle Routing Problem with Resource Constraints"
+  authors: "Dong Ho Lee and Jaemyung Ahn"
+  venue: "AIAA SciTech Forum"
+  url: https://doi.org/10.2514/6.2023-2662
+- id: cnn-aerodynamics
+  kind: conference
+  year: 2022
+  title: "Prediction of Multiple Aerodynamic Coefficients of Missiles Using CNN"
+  authors: "Dong Ho Lee, DongUk Lee, Jeongyong Lee, Bok Jik Lee, and Jaemyung Ahn"
+  venue: "AIAA SciTech Forum"
+  url: https://doi.org/10.2514/6.2022-2439

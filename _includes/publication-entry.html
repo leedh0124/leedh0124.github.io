@@ -1,0 +1,8 @@
+{% assign paper = include.paper %}
+<article class="publication-entry" id="{{ paper.id }}">
+  <h3><a href="{{ paper.url }}">{{ paper.title | escape }}</a></h3>
+  <p class="publication-authors">{{ paper.authors | escape | replace: 'Dong Ho Lee', '<strong>Dong Ho Lee</strong>' }}</p>
+  <p class="publication-venue">{% if paper.kind == 'preprint' and paper.details %}{{ paper.details | escape }}{% else %}{{ paper.venue | escape }}{% endif %} · {{ paper.year }}</p>
+  {% unless page.url == '/' %}{% if paper.details and paper.kind != 'preprint' %}<p class="publication-details">{{ paper.details | escape }}</p>{% endif %}{% endunless %}
+  <p class="publication-links"><a href="{{ paper.url }}">Paper<span class="sr-only">: {{ paper.title | escape }}</span></a>{% if paper.code %} · <a href="{{ paper.code }}">Code<span class="sr-only">: {{ paper.title | escape }}</span></a>{% endif %}</p>
+</article>

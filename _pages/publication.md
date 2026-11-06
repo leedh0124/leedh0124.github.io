@@ -1,42 +1,32 @@
 ---
+
 permalink: /publication/
-title: "Publication"
+title: "Publications"
+excerpt: "Research publications by Dong Ho Lee on multi-agent games, hierarchical optimization, reinforcement learning, and robotics."
 classes: wide
-date: 2022-08-16T03:02:20+00:00
-
 ---
-<br/>
 
-# Journal Publications
+## Preprints
 
-## International
+{% assign papers = site.data.publications | where: "kind", "preprint" %}
+{% for paper in papers %}{% include publication-entry.html paper=paper %}{% endfor %}
 
-- **Dong Ho Lee** and Jaemyung Ahn. (2022). Multi-Start Team Orienteering Problem for UAS Mission Re-Planning with Data-Efficient Deep Reinforcement Learning. _Journal of Intelligent & Robotic Systems_ (under review)
+## Journal publications
 
-- **Dong Ho Lee**, DongUk Lee, Seoum Han, Lee, Bok Jik Lee and Jaemyung Ahn. (2022). A Residual Deep Neural Network for Prediction of Aerodynamic Coefficients of Ablated Cone Shape under Extreme Flow Conditions. (in preparation)
+{% assign papers = site.data.publications | where: "kind", "journal" %}
+{% for paper in papers %}{% include publication-entry.html paper=paper %}{% endfor %}
 
-## Korean
+## Conference publications
 
-- **Dong Ho Lee**, Hwanchol Jang, Sang-Hwan Kim and Woohyuk Chang. (2020). Multi-UAV Mission Allocation and Optimization Technique Based on Discrete-Event Modeling and Simulation. _Journal of the Korean Society for Aeronautical& Space Systems_, 48(2), 159-166
+{% assign papers = site.data.publications | where: "kind", "conference" %}
+{% for paper in papers %}{% include publication-entry.html paper=paper %}{% endfor %}
 
-<br/>
+## Earlier publications in Korea
 
-# Conference Proceedings
+- **Dong Ho Lee**, Hwanchol Jang, Sang-Hwan Kim, and Woohyuk Chang. “Multi-UAV Mission Allocation and Optimization Technique Based on Discrete-Event Modeling and Simulation.” *Journal of the Korean Society for Aeronautical & Space Sciences*, 48(2), 159–166 (2020).
+- **Dong Ho Lee**, Woohyuk Chang, and Jinku Buyn. “An Optimization Technique for Discrete Event Model-based UAV Real-Time Heterogeneous Mission Allocation.” *Korean Society for Aeronautical and Space Sciences, Fall Conference*, Jeju, Korea (2018).
+- **Dong Ho Lee**, Woohyuk Chang, and Jinku Buyn. “Discrete-event Modeling and Simulation of Autonomous Multi-UAV Mission Management.” *Avionics Systems Symposium Korea*, Yeosu, Korea (2018).
 
-## International
+## Patent
 
-- **Dong Ho Lee** and Jaemyung Ahn. A Deep Reinforcement Learning Approach to solve the Vehicle Routing Problem with Resource Constraints. In _AIAA Scitech Forum 2023_, Maryland, USA. (to appear) 
-
-- **Dong Ho Lee**, DongUk Lee, Jeongyong Lee, Bok Jik Lee and Jaemyung Ahn. Prediction of Multiple Aerodynamic Coefficients of Missiles using CNN. In _AIAA Scitech Forum 2022_, San Diego, USA. 
-
-## Korean
-
--  **Dong Ho Lee**, Woohyuk Chang and Jinku Buyn. An Optimization Technique for Discrete Event Model-based UAV Real-Time Heterogeneous Mission Allocation. In 2018 _Proceedings of the Korean Society for Aeronautical and Space Sciences, Fall Conference_, Jeju, Korea.
-
--  **Dong Ho Lee**, Woohyuk Chang and Jinku Buyn. Discrete-event Modeling and Simulation of Autonomous Multi-UAV Mission Management. In 2018 _Avionics Systems Symposium Korea (ASSK)_, Yeosu, Korea.
-
-<br/>
-
-# Patents 
-
-- Woohyuk Chang, **Dong Ho Lee**, Hwanchol Jang, Method and apparatus for optimization of unmanned vehicle mission allocation, _KR102063851_ (Jan. 2020)
+Woohyuk Chang, **Dong Ho Lee**, and Hwanchol Jang. “Method and apparatus for optimization of unmanned vehicle mission allocation.” **KR102063851**, registered January 2020.

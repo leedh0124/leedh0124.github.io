@@ -1,3 +1,12 @@
+# Dong Ho Lee — personal website
+
+For content updates, local preview, and publishing, see [MAINTENANCE.md](MAINTENANCE.md).
+The November 2026 content review and deferred CV edits are recorded in [CONTENT_REVIEW.md](CONTENT_REVIEW.md).
+
+The original theme documentation follows.
+
+---
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)

@@ -1,64 +1,187 @@
 ---
 permalink: /projects/
-title: "A collection of research projects I've worked on"
+title: "Research"
+excerpt: "Games of ordered preference, compact reformulations, and a Newton solver for real-time multi-agent planning and control."
 classes: wide
-date: 2022-08-15T03:02:20+00:00
-
 ---
-<br/>
 
-## Routing Problems Considering Value System for Exploration Missions (2020-2022)
-This is an on-going three-year research project funded by National Research Foundation (NRF) of Korea. Led by Professor Jaemyung Ahn, our team considers the value system inherent in exploration missions and finds an optimal set of routes to accomplish mission goals. Planetory exploration missions such as field geology tests and atmospheric observations for autonomous mobile robots naturally entail various intrinsic traits. Uncertainty is one major factor. As a result, it is often the case to update the current mission profile, a situation that calls for fast and efficient mission re-planning techniques. In this work, I worked on a mission re-planning method for multiple robots using deep reinforcement learning. I designed a Transformer-style policy network and proposed a data-efficient training algorithm using instance-augmentation baseline that speeds up per-epoch training time by over 30% when compared to the conventional method. 
-[[Code]](https://github.com/leedh0124/Deep-Dynamic-Transformer-Model-for-Multi-Start-Team-Orienteering-Problem)
+I study how agents plan and act when their objectives conflict and some goals take priority over others. My work combines **noncooperative game theory, numerical optimization, and optimal control**, with applications to multi-agent systems.
 
-### Related Publications:
-- **Dong Ho Lee** and Jaemyung Ahn. (2022). Multi-Start Team Orienteering Problem for UAS Mission Re-Planning with Data-Efficient Deep Reinforcement Learning. _Journal of Intelligent & Robotic Systems_ (under review) [[Manuscript]](/assets/files/J_Intell_Robot_Syst_DDTM_MSTOP_Manuscript-vF.pdf) 
-- **Dong Ho Lee** and Jaemyung Ahn. A Deep Reinforcement Learning Approach to solve the Vehicle Routing Problem with Resource Constraints. In _AIAA Scitech Forum 2023_, Maryland, USA. (to appear)
+## Current work: receding-horizon control with ordered objectives
+{: #current-work}
 
-<figure class="half">
-    <img src="/assets/images/DH-Research3.jpg">
-    <img src="/assets/images/DDTM_Training_cropped2.jpg">
-    <figcaption></figcaption>
+I develop efficient numerical methods to solve **Games of Ordered Preference (GOOP)** for real-time receding-horizon control. The examples below show **preliminary results**.
+
+### Highway overtaking
+
+<div class="research-project-row research-project-row--wide" markdown="1">
+
+<figure class="research-figure">
+  <a href="{{ '/assets/images/research/overtake.pdf' | relative_url }}" aria-label="Open the highway overtaking figure as a PDF">
+    <img src="{{ '/assets/images/research/overtake.png' | relative_url }}" alt="The red ego vehicle changes lanes to overtake a blue vehicle, with a plot checking inter-vehicle proximity along the planned trajectories." width="1300" height="550" loading="lazy">
+  </a>
+  <figcaption>Planned trajectories and collision-avoidance check.</figcaption>
 </figure>
 
-![DDTM Training Image]({{ "/assets/images/DDTM_Result_A_cropped.jpg" | relative_url }}){: .align-center}
+<div class="research-project-text" markdown="1">
 
-## Data-Driven Flow Modeling Research (2020-2022)
-An on-going three-year research project funded by ADD, jointly conducted with the Aerospace Propulsion Laboratory (APL) of Seoul National University (SNU). Under extreme flow conditions, say Mach number beyond 5.0, changes in aerodynamic design shape frequently occurs. As a result, we need a fast and accurate technique to predict the changes in aerodynamic coefficients in accordance with the shape changes. Along with the team led by Professor Jaemyung Ahn and Professor Bok Jik Lee, I worked on adaptive aerodynamics prediction upon changes of the shape using deep learning. Specifically, I designed a deep learning pipeline for preprocessing raw data and training a residual deep neural net to fine tune its inference performance. 
+The ego vehicle (red) overtakes the blue vehicle while anticipating its behavior through a game-theoretic model. The compact reformulation and Newton solver reduce the computational burden, enabling real-time trajectory computation with longer planning horizons in this preliminary example.
 
-### Related Publications:
-- **Dong Ho Lee**, DongUk Lee, Seoum Han, Seongil Seo, Bok Jik Lee and Jaemyung Ahn. (2022). Deep Residual Neural Network
-for Predicting Aerodynamic Coefficient Changes with Ablation. _Aerospace Science and Technology_ (under review) [[Manuscript]](/assets/files/AST_DFM05-vF.pdf) 
-- **Dong Ho Lee**, DongUk Lee, Jeongyong Lee, Bok Jik Lee and Jaemyung Ahn. Prediction of Multiple Aerodynamic Coefficients of Missiles using CNN. In _AIAA Scitech Forum 2022_, San Diego, USA. [[Link]](https://arc.aiaa.org/doi/10.2514/6.2022-2439)
+</div>
+</div>
 
-<figure class="half">
-    <img src="/assets/images/AIAA_DongHo_Presentation2.jpg">
-    <img src="/assets/images/Test Set Plot for Ca.gif">
-    <figcaption></figcaption>
+### Cooperative pot transfer
+
+<div class="research-project-row research-project-row--wide" markdown="1">
+
+<figure class="research-figure">
+  <a href="{{ '/assets/images/research/goop_tilt_swerve_annotated.gif' | relative_url }}" aria-label="Open the cooperative pot-transfer animation">
+    <img src="{{ '/assets/images/research/goop_tilt_swerve_annotated.gif' | relative_url }}" alt="Two robot arms transfer a pot while keeping it balanced and maintaining clearance from an adversarial robot's hand, shown from two viewpoints." width="800" height="300" loading="lazy">
+  </a>
+  <figcaption>Two views of the manipulation simulation.</figcaption>
 </figure>
 
-## Waypoint-Constrained Optimal Control Problem via Interior-point Barrier Method (2021)
-A course project for AE551: Introduction to Optimal Control at KAIST, where I solved an trajectory optimization problem with waypoint constraints using the barrier (interior-point) method. This work was divided into two parts. In part 1, the trajectory optimization problem was formulated into a constrained parameter optimization via Hermite-Simpson direct collocation. In part 2, the parameter optimization problem was solved in two ways - MATLAB's _fmincon_ function and a barrier method coded by myself. The results for both methods were compared at the end. During the development, I tested my code on various benchmark (constrained & unconstrained) problems using the [Himmelblau](https://en.wikipedia.org/wiki/Himmelblau%27s_function) function.  
-[[Code]](https://github.com/leedh0124/AE551_Optimal_Control_Trajectory_Optimization_Direct_Methods)
-[[Final PPT]](/assets/files/AE551_Final_Presentation_DongHoLee_20204453_vF.pdf) 
+<div class="research-project-text" markdown="1">
 
-<figure class="half">
-    <img src="/assets/images/AE551_Test_Benchmark_B.jpg">
-    <img src="/assets/images/AE551_Final_B.jpg">
-    <figcaption></figcaption>
+In this simulation, two robot arms cooperate to transfer a pot while keeping it balanced and maintaining clearance from an adversarial robot's hand. The adversary tries to obstruct the transfer, so the cooperating arms must anticipate and respond to its motion.
+
+</div>
+</div>
+
+## Games of Ordered Preference
+{: #ordered-preferences}
+
+
+### The problem
+
+<div class="research-project-row" markdown="1">
+
+<figure class="research-figure">
+  <a href="{{ '/assets/images/research/GOOP_illustration.pdf' | relative_url }}" aria-label="Open the ordered-objectives illustration as a PDF">
+    <img src="{{ '/assets/images/research/GOOP_illustration.png' | relative_url }}" alt="An example hierarchy of driving objectives: collision avoidance has highest priority, followed by respecting lane boundaries, obeying speed limits, and reaching the destination efficiently." width="1350" height="1083" loading="lazy">
+  </a>
+  <figcaption>An example of ordered driving objectives.</figcaption>
 </figure>
 
-## Autonomous Navigation and Mission Management Technology (2017-2020)
-A three-year research project carried out during my service at the Aerospace Technology Research Institute (under ADD) as a research officer. My team and I worked on various mission planning algorithms for safe operation of UAV under dynamic environments, which can be used for unmanned air transportation and urban air mobility (UAM) services. We considered a number of mission profiles considering relative importance, sequence of visitation, and re-planning scenarios. I wrote a C++ code to solve the MILP formulation of planning problem via the [Gurobi](https://www.gurobi.com/) solver. For re-planning, I wrote a fast and efficient code to run on-board the UAV flight computer. The re-planning code is based on the genetic algorithm. You can read a Korean news coverage of this work [here](https://www.yna.co.kr/view/AKR20210511043600504).
+<div class="research-project-text" markdown="1">
 
-### Related Publications:
-- **Dong Ho Lee**, Hwanchol Jang, Sang-Hwan Kim and Woohyuk Chang. (2020). Multi-UAV Mission Allocation and Optimization Technique Based on Discrete-Event Modeling and Simulation. _Journal of the Korean Society for Aeronautical& Space Systems_, 48(2), 159-166
--  **Dong Ho Lee**, Woohyuk Chang and Jinku Buyn. An Optimization Technique for Discrete Event Model-based UAV Real-Time Heterogeneous Mission Allocation. In 2018 _Proceedings of the Korean Society for Aeronautical and Space Sciences, Fall Conference_, Jeju, Korea.
--  **Dong Ho Lee**, Woohyuk Chang and Jinku Buyn. Discrete-event Modeling and Simulation of Autonomous Multi-UAV Mission Management. In 2018 _Avionics Systems Symposium Korea (ASSK)_, Yeosu, Korea.
+A robot may need to prioritize collision avoidance over progress, or task completion over energy efficiency. In a multi-agent setting, the outcome also depends on what other robots do. The question is how to compute decisions that respect each agent’s objective hierarchy while accounting for strategic interaction.
 
-## Modular Drone with Self-Configuration Capability (2016)
-Modular drone was the first technical project I worked on. This project was carried out as the Undergraduate Research Participation (URP) program in KAIST. In this work, I developed a modular drone which was composed of smaller, individual modules, which when assembled together, can achieve a coordinated flight. These individual modules are capable of self-configuration that enables user to assemble them in any fashion. Once power is on, these modules communicate with each other, determine their module IDs based on their location, and perform coordinated flight. Hardware of individual module and bridge which connects each modules are constructed out of a 3D printer. 
-[[GIF]](/assets/images/URP_Modular_Drone_Flight_Test_AdobeExpress.gif)
-[[URP Poster]](/assets/files/URP_POSTER_MODULAR_DRONE2016.pdf) 
+</div>
+</div>
 
-![Module Image]({{ "/assets/images/URP_Single_Module.jpg" | relative_url }}){: .align-center}
+### The solution
+
+<div class="research-project-row" markdown="1">
+
+<figure class="research-figure">
+  <a href="{{ '/assets/images/research/GOOP_Formulation.pdf' | relative_url }}" aria-label="Open the GOOP formulation figure as a PDF">
+    <img src="{{ '/assets/images/research/GOOP_Formulation.png' | relative_url }}" alt="Coupled objective hierarchies for two players, followed by a KKT reformulation of the nested optimization problem." width="1060" height="813" loading="lazy">
+  </a>
+  <figcaption>GOOP formulation and single-level reformulation.</figcaption>
+</figure>
+
+<div class="research-project-text" markdown="1">
+
+We developed **Games of Ordered Preference (GOOP)**, a mathematical framework that models noncooperative games with strictly ordered preferences. We derived optimality conditions and solved a sequence of relaxed mixed complementarity problems to compute equilibrium candidates.
+
+The original formulation can require exponentially many variables and constraints. In follow-on work, our team derived a **reduced KKT system whose size grows polynomially**, eliminating unnecessary variables and constraints. For quadratic objectives with linear constraints, the reduced and complete systems have the same primal solution sets; in general nonlinear problems, additional conditions are needed to certify equilibrium candidates.
+
+The reported benchmark showed up to 10× speedup from the **formulation change alone**. The ongoing work above builds on the reformulation with a Newton solver for real-time receding-horizon control.
+
+</div>
+</div>
+
+### Relevance to robotics
+
+<div class="research-project-row" markdown="1">
+
+<figure class="research-figure">
+  <a href="{{ '/assets/images/research/GOOP_Intersection.pdf' | relative_url }}" aria-label="Open the GOOP intersection figure as a PDF">
+    <img src="{{ '/assets/images/research/GOOP_Intersection.png' | relative_url }}" alt="Two vehicles with different objective priorities at an intersection: blue prioritizes reaching its goal and red prioritizes the speed limit." width="750" height="815" loading="lazy">
+  </a>
+  <figcaption>Different objective priorities at an intersection.</figcaption>
+</figure>
+
+<div class="research-project-text" markdown="1">
+
+GOOP lets each agent express which objectives take priority when planning around others. The intersection example illustrates how different priorities can lead to different driving behavior.
+- [Paper](https://doi.org/10.1109/LRA.2025.3575324) · [Code](https://github.com/CLeARoboticsLab/ordered-preferences)
+- [Preprint](https://arxiv.org/abs/2603.26950) · [Code](https://github.com/CLeARoboticsLab/Reduced-GOOP) — under review at *SIAM Journal on Optimization*.
+- Related collaborative work: [Approximate Solutions to Games of Ordered Preference](https://arxiv.org/abs/2507.11021), ITSC 2025.
+
+</div>
+</div>
+
+## Mixed-hierarchy games for robot interaction
+{: #mixed-hierarchy}
+
+Multi-robot systems can mix simultaneous decisions with leader–follower relationships. I co-developed methods for **mixed Nash/Stackelberg games**, using quasi-policy approximations to make their optimality conditions computationally manageable.
+
+The team evaluated the solver in simulation and in a receding-horizon experiment with **two Clearpath Jackals and an NVIDIA JetRacer**.
+[Paper](https://arxiv.org/abs/2602.01568) · [Code](https://github.com/CLeARoboticsLab/MixedHierarchyGames.jl)
+
+## Game-theoretic hierarchical routing
+{: #hierarchical-routing}
+
+<div class="research-project-row" markdown="1">
+
+<figure class="research-figure">
+  <a href="{{ '/assets/images/research/hierarchical_routing.pdf' | relative_url }}" aria-label="Open the hierarchical routing figure as a PDF">
+    <img src="{{ '/assets/images/research/hierarchical_routing.png' | relative_url }}" alt="A high-level router assigns routes while individual vehicles solve their trajectory-planning problems." width="1275" height="515" loading="lazy">
+  </a>
+  <figcaption>High-level route assignment and low-level trajectory planning.</figcaption>
+</figure>
+
+<div class="research-project-text" markdown="1">
+
+A high-level planner assigns routes, while individual vehicles optimize their own behavior along those routes. I developed a **convex reformulation and a customized branch-and-bound method** for this bilevel routing problem. The method finds a globally optimal solution for the modeled problem while accounting for strategic interactions among vehicles.
+[Paper](https://doi.org/10.1109/LCSYS.2025.3571655)
+
+</div>
+</div>
+
+## Learning to replan multi-UAV routes
+{: #learning-routing}
+
+When a mission changes, vehicles may be far from the depot and have different remaining fuel or time budgets. I built a **Transformer-based reinforcement learning policy** for this multi-start team orienteering problem and developed a data-efficient training method.
+
+The policy selects routes under resource constraints, and the training approach was also evaluated on traveling salesperson and capacitated vehicle routing problems.
+[Paper](https://doi.org/10.1007/s10489-024-05367-4) · [Paper](https://doi.org/10.2514/6.2023-2662) · [Code](https://github.com/leedh0124/Deep-Dynamic-Transformer-Model-for-Multi-Start-Team-Orienteering-Problem)
+
+<figure class="research-figure">
+  <img src="{{ '/assets/images/DDTM_Result_A_cropped.jpg' | relative_url }}" alt="Multi-UAV routing results from the learning-based replanning project" loading="lazy">
+  <figcaption>Route-planning results from my KAIST work on data-efficient deep reinforcement learning.</figcaption>
+</figure>
+
+## Information gathering in noncooperative games
+
+How should an agent allocate resources to learn about another agent’s objectives before interacting with it? I contributed to a two-stage game-theoretic framework and a gradient-based solution method for smooth information gathering.
+[Paper](https://www.ifaamas.org/Proceedings/aamas2025/pdfs/p1595.pdf) · [Code](https://github.com/CLeARoboticsLab/GamesVoI.jl)
+
+## Earlier research and engineering
+{: #earlier-work}
+
+### Deep learning for aerodynamic prediction
+
+At KAIST, I developed a residual neural-network pipeline to predict **changes in aerodynamic coefficients as a vehicle’s shape changes under extreme flow conditions**. The work involved preprocessing simulation data, training the model, and evaluating prediction performance.
+[Paper](https://doi.org/10.1016/j.ast.2023.108207) · [Paper](https://doi.org/10.2514/6.2022-2439)
+
+### Trajectory optimization with waypoint constraints
+
+For a KAIST optimal-control course project (2021), I formulated a waypoint-constrained trajectory problem using **Hermite–Simpson direct collocation**. I implemented an interior-point barrier method and compared its results with MATLAB’s `fmincon`.
+[Code](https://github.com/leedh0124/AE551_Optimal_Control_Trajectory_Optimization_Direct_Methods) · [Project slides (PDF)]({{ '/assets/files/AE551_Final_Presentation_DongHoLee_20204453_vF.pdf' | relative_url }})
+
+### Multi-UAV mission planning
+
+As a Research Officer at ADD (2017–2020), I developed **mixed-integer and genetic-algorithm approaches** for mission allocation and replanning, and implemented planning software for a Linux-based UAV simulator. This work led to a registered patent, **KR102063851** (2020).
+
+### Self-configuring modular drone
+
+As an undergraduate research intern at KAIST (2015–2016), I designed and constructed a **3D-printable modular drone**. The modules communicate to identify their arrangement before coordinated flight. The project received an Excellent Research Award in the Undergraduate Research Participation program.
+[Flight demonstration (MP4)]({{ '/assets/images/URP_Modular_Drone_Flight_Test.mp4' | relative_url }}) · [Research poster (PDF)]({{ '/assets/files/URP_POSTER_MODULAR_DRONE2016.pdf' | relative_url }})
+
+<figure class="research-figure research-figure--compact">
+  <img src="{{ '/assets/images/URP_Single_Module.jpg' | relative_url }}" alt="A single 3D-printed module from the self-configuring drone project" loading="lazy">
+  <figcaption>A module from the self-configuring drone prototype.</figcaption>
+</figure>
