@@ -234,3 +234,22 @@ or a private browser window.
 For future updates, repeat steps 2–4; the Pages settings are a one-time setup.
 Official references: [configuring the publishing source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 and [viewing a published site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#viewing-your-published-site).
+
+### Old pages or a layout that differs from the local preview
+
+The permanent address is <https://leedh0124.github.io/>. A link such as
+`https://leedh0124.github.io/?v=56a81098` still requests the same homepage; the
+query parameter can bypass a browser's cached copy. It is not a separate site
+or a different deployment, and it does not refresh separately cached CSS.
+
+If a tab still shows an older page after a successful deployment, use
+**Command+Shift+R** in Chrome on this Mac to reload the page and its assets.
+Compare the same page at the same browser zoom and window width. An already
+open tab does not update just because a deployment finishes.
+
+The stylesheet link in `_includes/head.html` includes a build timestamp
+(`main.css?v=...`). Each new build gives it a new URL, so a newly loaded page
+fetches that build's styles instead of reusing an older stylesheet. This works
+with both local Jekyll and GitHub Pages; there is no version to maintain by hand.
+It takes effect after this template change is committed and pushed. It cannot
+refresh HTML that is already open in a visitor's browser.
