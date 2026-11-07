@@ -253,3 +253,7 @@ fetches that build's styles instead of reusing an older stylesheet. This works
 with both local Jekyll and GitHub Pages; there is no version to maintain by hand.
 It takes effect after this template change is committed and pushed. It cannot
 refresh HTML that is already open in a visitor's browser.
+
+
+### Convert MP4 to GIF: ###
+ffmpeg -i input.mp4 -vf "fps=12,scale=800:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" output.gif
